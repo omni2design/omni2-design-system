@@ -1,0 +1,127 @@
+{
+  "theme": {
+    "name": "archrecon",
+    "brand": {
+      "name": "ArchRecon",
+      "description": "Technical AEC documentation theme for client portals, deliverable workflows, project dashboards, and reality capture experiences."
+    },
+    "color": {
+      "background": {
+        "default": "#ffffff",
+        "subtle": "#f5f5f5",
+        "elevated": "#ffffff",
+        "inverse": "#00162d",
+        "technical": "#eff7ff",
+        "infoSubtle": "#d0e7ff"
+      },
+      "brand": {
+        "blue950": "#00162d",
+        "blue900": "#002952",
+        "blue800": "#003c79",
+        "blue700": "#0053a7",
+        "blue600": "#0068d0",
+        "blue500": "#0078ef",
+        "blue400": "#148aff",
+        "blue300": "#45a2ff",
+        "blue200": "#9acdff",
+        "blue100": "#d0e7ff",
+        "blue50": "#eff7ff"
+      },
+      "neutral": {
+        "black": "#000000",
+        "ink": "#0e0e0e",
+        "charcoal": "#1e1e1e",
+        "gray900": "#333333",
+        "gray700": "#575757",
+        "gray600": "#707476",
+        "gray500": "#999999",
+        "gray300": "#d6d6d6",
+        "gray200": "#e8e8e8",
+        "gray100": "#f5f5f5",
+        "white": "#ffffff"
+      },
+      "text": {
+        "primary": "#0e0e0e",
+        "secondary": "#575757",
+        "muted": "#707476",
+        "inverse": "#ffffff",
+        "brand": "#0053a7",
+        "technical": "#00162d"
+      },
+      "border": {
+        "default": "#e8e8e8",
+        "subtle": "#f5f5f5",
+        "strong": "#333333",
+        "focus": "#0078ef",
+        "technical": "#d0e7ff"
+      },
+      "button": {
+        "primary": {
+          "background": "#0053a7",
+          "text": "#ffffff",
+          "hover": "#003c79"
+        },
+        "secondary": {
+          "background": "#ffffff",
+          "text": "#002952",
+          "border": "#d6d6d6",
+          "hover": "#eff7ff"
+        },
+        "technical": {
+          "background": "#eff7ff",
+          "text": "#002952",
+          "hover": "#d0e7ff"
+        }
+      },
+      "status": {
+        "info": "#2563eb",
+        "success": "#16a34a",
+        "warning": "#d97706",
+        "danger": "#dc2828"
+      }
+    },
+    "typography": {
+      "sans": "Inter",
+      "brand": "Catamaran",
+      "technicalDisplay": "Nasalization Regular"
+    },
+    "radius": {
+      "button": "12px",
+      "card": "16px",
+      "panel": "20px",
+      "input": "10px"
+    },
+    "product": {
+      "portal": {
+        "projectStatus": {
+          "draft": {
+            "label": "Draft",
+            "color": "#707476",
+            "background": "#f5f5f5"
+          },
+          "inProgress": {
+            "label": "In progress",
+            "color": "#0053a7",
+            "background": "#eff7ff"
+          },
+          "readyForReview": {
+            "label": "Ready for review",
+            "color": "#d97706",
+            "background": "#fffbeb"
+          },
+          "delivered": {
+            "label": "Delivered",
+            "color": "#16a34a",
+            "background": "#f0fdf4"
+          }
+        },
+        "deliverableTypes": {
+          "floorPlans": "#0053a7",
+          "asBuiltDrawings": "#0078ef",
+          "draftingSets": "#003c79",
+          "realityCapture": "#00162d"
+        }
+      }
+    }
+  }
+}
