@@ -1,0 +1,21 @@
+{
+  "theme": {
+    "name":"omni2",
+    "background": {
+      "default":"#ffffff",
+      "hero":"#041412",
+      "sectionDark":"#0e0e0e"
+    },
+    "brand": {
+      "primary":"#0edbbd",
+      "primaryDark":"#055951",
+      "primaryInk":"#041412"
+    },
+    "text": {
+      "onLight":"#0e0e0e",
+      "onDark":"#ffffff",
+      "muted":"#707476",
+      "mutedOnDark":"#ffffff99"
+    }
+  }
+}
