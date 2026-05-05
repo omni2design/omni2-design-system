@@ -1,0 +1,103 @@
+{
+  "theme": {
+    "name": "amc",
+    "brand": {
+      "name": "All Might Contracting",
+      "description": "High-trust contractor theme for homeowner roofing, storm damage, repair, and estimate workflows."
+    },
+    "color": {
+      "background": {
+        "default": "#ffffff",
+        "subtle": "#f5f5f5",
+        "elevated": "#ffffff",
+        "inverse": "#1f3a5f",
+        "emergency": "#fff5f5",
+        "successSubtle": "#f0fdf4",
+        "warningSubtle": "#fffbeb"
+      },
+      "brand": {
+        "navy": "#1f3a5f",
+        "navyDark": "#0b1f33",
+        "red": "#b22e2e",
+        "redDark": "#8f2424",
+        "gray": "#e5e7eb",
+        "lightGray": "#f5f5f5",
+        "white": "#ffffff"
+      },
+      "text": {
+        "primary": "#0b1f33",
+        "secondary": "#4b5563",
+        "muted": "#6b7280",
+        "inverse": "#ffffff",
+        "brand": "#1f3a5f",
+        "urgent": "#b22e2e"
+      },
+      "border": {
+        "default": "#e5e7eb",
+        "subtle": "#f0f0f0",
+        "strong": "#1f3a5f",
+        "focus": "#b22e2e",
+        "urgent": "#b22e2e"
+      },
+      "button": {
+        "primary": {
+          "background": "#b22e2e",
+          "text": "#ffffff",
+          "hover": "#8f2424"
+        },
+        "secondary": {
+          "background": "#ffffff",
+          "text": "#1f3a5f",
+          "border": "#e5e7eb",
+          "hover": "#f5f5f5"
+        },
+        "navy": {
+          "background": "#1f3a5f",
+          "text": "#ffffff",
+          "hover": "#0b1f33"
+        }
+      },
+      "status": {
+        "low": "#16a34a",
+        "medium": "#f59e0b",
+        "high": "#b22e2e",
+        "critical": "#7f1d1d"
+      },
+      "rating": {
+        "star": "#ffc107"
+      }
+    },
+    "radius": {
+      "button": "100px",
+      "card": "32px",
+      "image": "20px",
+      "input": "16px"
+    },
+    "product": {
+      "stormRoofCheck": {
+        "urgency": {
+          "low": {
+            "label": "Monitor",
+            "color": "#16a34a",
+            "background": "#f0fdf4"
+          },
+          "medium": {
+            "label": "Schedule inspection",
+            "color": "#f59e0b",
+            "background": "#fffbeb"
+          },
+          "high": {
+            "label": "Needs review soon",
+            "color": "#b22e2e",
+            "background": "#fff5f5"
+          },
+          "critical": {
+            "label": "Active water intrusion",
+            "color": "#7f1d1d",
+            "background": "#fee2e2"
+          }
+        }
+      }
+    }
+  }
+}
