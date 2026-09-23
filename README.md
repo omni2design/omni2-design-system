@@ -75,3 +75,7 @@ This repo is the **public design language** — tokens, the Tailwind mapping, an
 - Consistent user experience across Omni2 and client work
 - Seamless design-to-code workflows
 - AI-assisted UI generation grounded in a real system
+
+## License
+
+[MIT](./LICENSE) © Christian Cueva / Omni2 Design — reuse freely with attribution.
