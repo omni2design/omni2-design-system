@@ -1,21 +1,110 @@
 {
   "theme": {
-    "name":"omni2",
-    "background": {
-      "default":"#ffffff",
-      "hero":"#041412",
-      "sectionDark":"#0e0e0e"
-    },
+    "name": "omni2",
     "brand": {
-      "primary":"#0edbbd",
-      "primaryDark":"#055951",
-      "primaryInk":"#041412"
+      "name": "Omni2 Design",
+      "description": "Design + technology studio for the built world. Dark-first with a teal accent and an orange call-to-action; supports a warm-paper light mode. Rubik display, Hanken Grotesk body, IBM Plex Mono for technical labels."
     },
-    "text": {
-      "onLight":"#0e0e0e",
-      "onDark":"#ffffff",
-      "muted":"#707476",
-      "mutedOnDark":"#ffffff99"
+    "color": {
+      "background": {
+        "default": "#080a0c",
+        "subtle": "#0b0e11",
+        "surface": "#101418",
+        "raised": "#161b20",
+        "elevated": "#101418",
+        "inverse": "#f4f2ec"
+      },
+      "brand": {
+        "teal": "#1fd1c4",
+        "cyan": "#57e3d7",
+        "tealInk": "#2fa196",
+        "orange": "#ff6a2c",
+        "orangeInk": "#f58628",
+        "ink": "#080a0c"
+      },
+      "neutral": {
+        "black": "#000000",
+        "ink": "#080a0c",
+        "bg2": "#0b0e11",
+        "surface": "#101418",
+        "raised": "#161b20",
+        "faint": "#5c676d",
+        "dim": "#9aa6ac",
+        "text": "#eef3f2",
+        "paper": "#f4f2ec",
+        "paperRaised": "#fbfaf6",
+        "white": "#ffffff"
+      },
+      "text": {
+        "primary": "#eef3f2",
+        "secondary": "#9aa6ac",
+        "muted": "#5c676d",
+        "inverse": "#17191b",
+        "brand": "#1fd1c4",
+        "accent": "#ff6a2c"
+      },
+      "border": {
+        "default": "rgba(233, 245, 243, 0.09)",
+        "subtle": "rgba(233, 245, 243, 0.09)",
+        "strong": "rgba(233, 245, 243, 0.18)",
+        "focus": "#1fd1c4"
+      },
+      "button": {
+        "primary": {
+          "background": "#ff6a2c",
+          "text": "#000000",
+          "hover": "#ff8654"
+        },
+        "secondary": {
+          "background": "transparent",
+          "text": "#1fd1c4",
+          "border": "rgba(31, 209, 196, 0.4)",
+          "hover": "rgba(31, 209, 196, 0.1)"
+        }
+      },
+      "glow": {
+        "teal": "rgba(31, 209, 196, 0.16)",
+        "cyan": "rgba(87, 227, 215, 0.1)",
+        "orange": "rgba(255, 106, 44, 0.28)"
+      },
+      "selection": "rgba(255, 106, 44, 0.28)"
+    },
+    "light": {
+      "background": {
+        "default": "#f4f2ec",
+        "subtle": "#ece9e1",
+        "surface": "#fbfaf6",
+        "raised": "#f1eee6",
+        "inverse": "#080a0c"
+      },
+      "text": {
+        "primary": "#17191b",
+        "secondary": "#565a5b",
+        "muted": "#8c8e86"
+      },
+      "brand": {
+        "teal": "#2fa196",
+        "cyan": "#33aca1",
+        "orange": "#f58628"
+      },
+      "border": {
+        "default": "rgba(26, 30, 32, 0.12)",
+        "strong": "rgba(26, 30, 32, 0.24)"
+      }
+    },
+    "typography": {
+      "display": "Rubik",
+      "sans": "Hanken Grotesk",
+      "mono": "IBM Plex Mono"
+    },
+    "radius": {
+      "button": "999px",
+      "card": "16px",
+      "panel": "24px",
+      "input": "8px"
+    },
+    "motion": {
+      "ease": "cubic-bezier(0.16, 1, 0.3, 1)"
     }
   }
 }

@@ -1,31 +1,38 @@
 {
   "font": {
-    "sans":"Inter",
-    "display":"Chillax"
+    "display": "Rubik",
+    "sans": "Hanken Grotesk",
+    "mono": "IBM Plex Mono"
   },
   "fontWeight": {
-    "regular":400,
-    "medium":500,
-    "semibold":600,
-    "bold":700,
-    "black":900
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "heavy": 800
   },
   "fontSize": {
-    "xs":"12px",
-    "sm":"14px",
-    "base":"16px",
-    "lg":"18px",
-    "xl":"20px",
-    "2xl":"24px",
-    "3xl":"32px",
-    "4xl":"40px",
-    "5xl":"56px",
-    "6xl":"72px"
+    "xs": "12px",
+    "sm": "14px",
+    "base": "16px",
+    "lg": "18px",
+    "xl": "20px",
+    "2xl": "24px",
+    "3xl": "32px",
+    "4xl": "40px",
+    "5xl": "56px",
+    "6xl": "72px"
   },
   "lineHeight": {
-    "tight":"1.1",
-    "snug":"1.2",
-    "normal":"1.5",
-    "relaxed":"1.65"
+    "tight": "1.06",
+    "snug": "1.2",
+    "normal": "1.5",
+    "relaxed": "1.65"
+  },
+  "letterSpacing": {
+    "tightest": "-0.02em",
+    "tight": "-0.01em",
+    "normal": "0",
+    "meta": "0.18em"
   }
 }
